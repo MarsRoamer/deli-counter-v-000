@@ -2,10 +2,10 @@ def line(katz_deli)
 
   count = 0
   str = ""
-  if arr.size == 0
+  if katz_deli.size == 0
     puts "The line is currently empty."
   else
-    while count < arr.size
+    while count < katz_deli.size
       count +=1
       str = count + arr[count - 1]
       new_arr.push(str)
