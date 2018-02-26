@@ -7,7 +7,7 @@ def line(arr)
   else
     while count < arr.size
       count +=1
-      str = count + arr[count - 1] 
+      str = count + arr[count - 1]
       new_arr.push(str)
   end
   new_arr
