@@ -7,7 +7,7 @@ def line(katz_deli)
   else
     while count < katz_deli.size
       count +=1
-      str = count + katz_deli[count - 1]
+      str = count.to_s + katz_deli[count - 1]
       new_arr.push(str)
   end
   new_arr
