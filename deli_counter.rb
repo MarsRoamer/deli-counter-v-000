@@ -2,18 +2,19 @@ def line(katz_deli)
   new_arr = Array.new
   count = 0
   str = ""
+  
   if katz_deli.size == 0
     puts "The line is currently empty."
   else
     while count < katz_deli.size
       count +=1
-      str = count.to_s + katz_deli[count - 1]
+      str = count.to_s + ". " + katz_deli[count - 1]
       new_arr.push(str)
   end
-  new_arr
+  new_str = new_arr.join(" ")
+  "The line is currently: " + new_str
 end
 end
-
 katz_deli = []
 
 def take_a_number(katz_deli, name)
