@@ -31,6 +31,6 @@ def now_serving(katz_deli)
     puts "The line is empty."
   else
     serving = katz_deli.shift
-    "Now serving #{serving}."
+    puts "Now serving #{serving}."
   end
 end
