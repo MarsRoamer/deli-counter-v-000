@@ -7,5 +7,6 @@ def line(arr)
     arr.each do |element|
       new_arr.push(count + element)
     end
+  end
     puts "The line is currently #{arr.index(element)} "
 end
