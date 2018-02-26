@@ -22,6 +22,6 @@ def take_a_number(katz_deli, name)
     puts "Welcome, #{name}. You are number 1 in line."
   else
     katz_deli.push(name)
-    puts "Welcome, #{name}. You are number #{katz_deli.last} in line."
+    puts "Welcome, #{name}. You are number #{katz_deli.index(name)} in line."
   end
 end
