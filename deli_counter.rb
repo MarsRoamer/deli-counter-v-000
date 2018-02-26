@@ -2,7 +2,7 @@ def line(katz_deli)
   new_arr = Array.new
   count = 0
   str = ""
-
+  
   if katz_deli.size == 0
     puts "The line is currently empty."
   else
@@ -12,7 +12,7 @@ def line(katz_deli)
       new_arr.push(str)
   end
   new_str = new_arr.join(" ")
-  "The line is currently: " + new_str
+  puts "The line is currently: " + new_str
 end
 end
 katz_deli = []
