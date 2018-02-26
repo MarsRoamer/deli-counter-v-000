@@ -1,5 +1,5 @@
-def line(arr)
-  new_arr = Array.new
+def line(katz_deli)
+
   count = 0
   str = ""
   if arr.size == 0
