@@ -30,6 +30,7 @@ def now_serving(katz_deli)
   if katz_deli.size == 0
     puts "The line is empty."
   else
-    "Now serving #{katz_deli.shift}"
+    serving = katz_deli.shift
+    "Now serving #{serving}."
   end
 end
